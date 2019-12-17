@@ -11,9 +11,8 @@ end
 
 
 def print_first_directors_movie_titles
-  directors_database.each do |k,v| 
-     	k[:movies].map do |movie_row|
-     		puts movie_row[:title]
-     	end 
-    end
+ directors_database.each do |value|
+   value 
+   binding.pry
+ end
 end
