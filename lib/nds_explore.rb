@@ -11,7 +11,8 @@ end
 
 
 def print_first_directors_movie_titles
- directors_database.each do |k,v|
-   k,v 
+ directors_database.each do |value|
+   value 
+   binding.pry
  end
 end
