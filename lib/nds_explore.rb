@@ -15,5 +15,5 @@ def print_first_directors_movie_titles
      	k[:movies].map do |movie_row|
      		puts movie_row[:title]
      	end 
-     end
+    end
 end
