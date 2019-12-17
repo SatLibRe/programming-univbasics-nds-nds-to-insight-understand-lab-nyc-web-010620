@@ -7,10 +7,12 @@ require "pry"
 def pretty_print_nds(nds)
   # Change the code below to pretty print the nds with pp
   pp nds
-  binding.pry 
 end
 
 
 def print_first_directors_movie_titles
- 
+ directors_database.each do |k,v|
+   k,v 
+   binding.pry 
+ end
 end
