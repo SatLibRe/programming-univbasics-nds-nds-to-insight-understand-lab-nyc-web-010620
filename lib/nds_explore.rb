@@ -11,8 +11,11 @@ end
 
 
 def print_first_directors_movie_titles
- directors_database.each do |value|
-   value 
-   binding.pry
- end
+  directors_database.each do |k,v| 
+     	if  k[:name] == "Stephen Spielberg"
+     		k[:movies].map do |movie|
+     			puts movie[:title]
+     		end 
+     	end 
+    end 
 end
